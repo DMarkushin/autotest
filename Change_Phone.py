@@ -24,3 +24,4 @@ driver.find_element(By.XPATH, '//*[@id="__layout"]/div/div[3]/div/div/div[2]/div
 driver.find_element(By.XPATH, '//*[@id="__layout"]/div/div[3]/div/div/div[2]/div/div/div/div[2]/form/div/div/input').send_keys('3332220000')
 driver.find_element(By.XPATH, '//*[@id="__layout"]/div/div[3]/div/div/div[2]/div/div/div/div[2]/form/button').click()
 driver.find_element(By.XPATH, '//*[@id="__layout"]/div/div[3]/div/div/div[2]/div/div/div/div[1]/div[2]/img').click()
+time.sleep(1)
